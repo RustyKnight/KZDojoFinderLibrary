@@ -1,0 +1,1 @@
+#KZDojoFinderLibraryThis project maintains the core interface layer for the data used by the iOS DojoFinder App.The intention is to make the data layer vanilla so that it's possible to change the way in which the data is managed and maintained without the need to re-write the app every time it needs to be changed
