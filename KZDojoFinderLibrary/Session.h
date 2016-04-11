@@ -34,6 +34,6 @@ typedef NS_ENUM(NSInteger, SessionType) {Normal, Super, Restricted, Invitation};
 @property SessionType type;
 @property NSString* details;
 
-@property id<Dojo> dojo;
+@property (readonly) id<Dojo> dojo;
 
 @end
