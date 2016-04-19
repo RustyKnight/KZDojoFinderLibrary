@@ -11,11 +11,11 @@
 
 @protocol RegionalContact <NSObject>
 
-@property NSString *name;
-@property NSString *phoneNumber;
-@property NSString *email;
-@property NSString *faceBook;
-@property int region;
+@property (readonly, strong, nonatomic) NSString *name;
+@property (readonly, strong, nonatomic) NSString *phoneNumber;
+@property (readonly, strong, nonatomic) NSString *email;
+@property (readonly, strong, nonatomic) NSString *faceBook;
+@property (readonly, strong, nonatomic) int region;
 
 -(void) photo:(void (^)(UIImage*))callBack;
 

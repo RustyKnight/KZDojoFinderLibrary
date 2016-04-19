@@ -12,10 +12,10 @@
 
 @protocol Dojo <NSObject>
 
-@property NSString *name;
-@property NSString *address;
-@property (readonly) CLLocation *location;
-@property int region;
+@property (readonly, strong, nonatomic) NSString *name;
+@property (readonly, strong, nonatomic) NSString *address;
+@property (readonly, strong, nonatomic) CLLocation *location;
+@property (readonly, strong, nonatomic) int region;
 
 -(void) picture:(void (^)(UIImage*))callBack;
 
