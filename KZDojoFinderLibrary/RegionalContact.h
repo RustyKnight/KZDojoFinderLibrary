@@ -15,7 +15,7 @@
 @property (readonly, strong, nonatomic) NSString *phoneNumber;
 @property (readonly, strong, nonatomic) NSString *email;
 @property (readonly, strong, nonatomic) NSString *faceBook;
-@property (readonly, strong, nonatomic) int region;
+@property (nonatomic) int region;
 
 -(void) photo:(void (^)(UIImage*))callBack;
 
