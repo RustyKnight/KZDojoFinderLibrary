@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70AAFDD01CC721620013555B /* DojoFinderLibraryUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 70AAFDCE1CC721620013555B /* DojoFinderLibraryUtilities.h */; };
+		70AAFDD11CC721620013555B /* DojoFinderLibraryUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AAFDCF1CC721620013555B /* DojoFinderLibraryUtilities.m */; };
+		70AAFDD31CC722890013555B /* KZCoreLibrariesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AAFDD21CC722890013555B /* KZCoreLibrariesObjC.framework */; };
 		70FC8D8C1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D8B1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70FC8D991CB2648B00E4D8D1 /* Dojo.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D931CB2648B00E4D8D1 /* Dojo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70FC8D9A1CB2648B00E4D8D1 /* DojoFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D941CB2648B00E4D8D1 /* DojoFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70AAFDCE1CC721620013555B /* DojoFinderLibraryUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DojoFinderLibraryUtilities.h; sourceTree = "<group>"; };
+		70AAFDCF1CC721620013555B /* DojoFinderLibraryUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DojoFinderLibraryUtilities.m; sourceTree = "<group>"; };
+		70AAFDD21CC722890013555B /* KZCoreLibrariesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZCoreLibrariesObjC.framework; path = Carthage/Build/iOS/KZCoreLibrariesObjC.framework; sourceTree = "<group>"; };
 		70FC8D881CB2643B00E4D8D1 /* KZDojoFinderLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KZDojoFinderLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FC8D8B1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZDojoFinderLibrary.h; sourceTree = "<group>"; };
 		70FC8D8D1CB2643B00E4D8D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70AAFDD31CC722890013555B /* KZCoreLibrariesObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +66,19 @@
 			name = Facories;
 			sourceTree = "<group>";
 		};
+		70AAFDCB1CC721360013555B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				70AAFDCE1CC721620013555B /* DojoFinderLibraryUtilities.h */,
+				70AAFDCF1CC721620013555B /* DojoFinderLibraryUtilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		70FC8D7E1CB2643B00E4D8D1 = {
 			isa = PBXGroup;
 			children = (
+				70AAFDD21CC722890013555B /* KZCoreLibrariesObjC.framework */,
 				70FC8D8A1CB2643B00E4D8D1 /* KZDojoFinderLibrary */,
 				70FC8D891CB2643B00E4D8D1 /* Products */,
 			);
@@ -78,6 +95,7 @@
 		70FC8D8A1CB2643B00E4D8D1 /* KZDojoFinderLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				70AAFDCB1CC721360013555B /* Utilities */,
 				70AAFDCA1CC71FA40013555B /* Facories */,
 				70AAFDC91CC71F930013555B /* Data */,
 				70FC8D8B1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h */,
@@ -100,6 +118,7 @@
 				70FC8D9A1CB2648B00E4D8D1 /* DojoFactory.h in Headers */,
 				70FC8D9E1CB2648B00E4D8D1 /* SessionFactory.h in Headers */,
 				70FC8D9D1CB2648B00E4D8D1 /* Session.h in Headers */,
+				70AAFDD01CC721620013555B /* DojoFinderLibraryUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70AAFDD11CC721620013555B /* DojoFinderLibraryUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +295,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = KZDojoFinderLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -292,6 +316,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = KZDojoFinderLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
