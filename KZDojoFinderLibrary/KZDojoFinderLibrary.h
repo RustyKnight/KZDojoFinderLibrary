@@ -19,7 +19,7 @@ FOUNDATION_EXPORT const unsigned char KZDojoFinderLibraryVersionString[];
 
 #import "Dojo.h"
 #import "DojoFactory.h"
-#import "RegionalContact.h"
-#import "RegionalContactFactory.h"
+#import "RegionContact.h"
+#import "RegionContactFactory.h"
 #import "Session.h"
 #import "SessionFactory.h"

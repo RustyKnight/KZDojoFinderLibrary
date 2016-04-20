@@ -15,7 +15,7 @@
 @property (readonly, strong, nonatomic) NSString *name;
 @property (readonly, strong, nonatomic) NSString *address;
 @property (readonly, strong, nonatomic) CLLocation *location;
-@property (nonatomic) int region;
+@property (readonly, nonatomic) int region;
 
 -(void) picture:(void (^)(UIImage*))callBack;
 

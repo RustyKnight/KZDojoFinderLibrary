@@ -10,8 +10,8 @@
 		70FC8D8C1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D8B1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70FC8D991CB2648B00E4D8D1 /* Dojo.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D931CB2648B00E4D8D1 /* Dojo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70FC8D9A1CB2648B00E4D8D1 /* DojoFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D941CB2648B00E4D8D1 /* DojoFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70FC8D9B1CB2648B00E4D8D1 /* RegionalContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D951CB2648B00E4D8D1 /* RegionalContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70FC8D9C1CB2648B00E4D8D1 /* RegionalContactFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D961CB2648B00E4D8D1 /* RegionalContactFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70FC8D9B1CB2648B00E4D8D1 /* RegionContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D951CB2648B00E4D8D1 /* RegionContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70FC8D9C1CB2648B00E4D8D1 /* RegionContactFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D961CB2648B00E4D8D1 /* RegionContactFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70FC8D9D1CB2648B00E4D8D1 /* Session.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D971CB2648B00E4D8D1 /* Session.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70FC8D9E1CB2648B00E4D8D1 /* SessionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D981CB2648B00E4D8D1 /* SessionFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -22,8 +22,8 @@
 		70FC8D8D1CB2643B00E4D8D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70FC8D931CB2648B00E4D8D1 /* Dojo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dojo.h; sourceTree = "<group>"; };
 		70FC8D941CB2648B00E4D8D1 /* DojoFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DojoFactory.h; sourceTree = "<group>"; };
-		70FC8D951CB2648B00E4D8D1 /* RegionalContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionalContact.h; sourceTree = "<group>"; };
-		70FC8D961CB2648B00E4D8D1 /* RegionalContactFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionalContactFactory.h; sourceTree = "<group>"; };
+		70FC8D951CB2648B00E4D8D1 /* RegionContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionContact.h; sourceTree = "<group>"; };
+		70FC8D961CB2648B00E4D8D1 /* RegionContactFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionContactFactory.h; sourceTree = "<group>"; };
 		70FC8D971CB2648B00E4D8D1 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
 		70FC8D981CB2648B00E4D8D1 /* SessionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionFactory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +39,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70AAFDC91CC71F930013555B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				70FC8D931CB2648B00E4D8D1 /* Dojo.h */,
+				70FC8D951CB2648B00E4D8D1 /* RegionContact.h */,
+				70FC8D971CB2648B00E4D8D1 /* Session.h */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		70AAFDCA1CC71FA40013555B /* Facories */ = {
+			isa = PBXGroup;
+			children = (
+				70FC8D941CB2648B00E4D8D1 /* DojoFactory.h */,
+				70FC8D961CB2648B00E4D8D1 /* RegionContactFactory.h */,
+				70FC8D981CB2648B00E4D8D1 /* SessionFactory.h */,
+			);
+			name = Facories;
+			sourceTree = "<group>";
+		};
 		70FC8D7E1CB2643B00E4D8D1 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +78,10 @@
 		70FC8D8A1CB2643B00E4D8D1 /* KZDojoFinderLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				70AAFDCA1CC71FA40013555B /* Facories */,
+				70AAFDC91CC71F930013555B /* Data */,
 				70FC8D8B1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h */,
 				70FC8D8D1CB2643B00E4D8D1 /* Info.plist */,
-				70FC8D931CB2648B00E4D8D1 /* Dojo.h */,
-				70FC8D941CB2648B00E4D8D1 /* DojoFactory.h */,
-				70FC8D951CB2648B00E4D8D1 /* RegionalContact.h */,
-				70FC8D961CB2648B00E4D8D1 /* RegionalContactFactory.h */,
-				70FC8D971CB2648B00E4D8D1 /* Session.h */,
-				70FC8D981CB2648B00E4D8D1 /* SessionFactory.h */,
 			);
 			path = KZDojoFinderLibrary;
 			sourceTree = "<group>";
@@ -77,10 +93,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70FC8D9B1CB2648B00E4D8D1 /* RegionalContact.h in Headers */,
+				70FC8D9B1CB2648B00E4D8D1 /* RegionContact.h in Headers */,
 				70FC8D991CB2648B00E4D8D1 /* Dojo.h in Headers */,
 				70FC8D8C1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h in Headers */,
-				70FC8D9C1CB2648B00E4D8D1 /* RegionalContactFactory.h in Headers */,
+				70FC8D9C1CB2648B00E4D8D1 /* RegionContactFactory.h in Headers */,
 				70FC8D9A1CB2648B00E4D8D1 /* DojoFactory.h in Headers */,
 				70FC8D9E1CB2648B00E4D8D1 /* SessionFactory.h in Headers */,
 				70FC8D9D1CB2648B00E4D8D1 /* Session.h in Headers */,

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 @import UIKit;
 
-@protocol RegionalContact <NSObject>
+@protocol RegionContact <NSObject>
 
 @property (readonly, strong, nonatomic) NSString *name;
 @property (readonly, strong, nonatomic) NSString *phoneNumber;
