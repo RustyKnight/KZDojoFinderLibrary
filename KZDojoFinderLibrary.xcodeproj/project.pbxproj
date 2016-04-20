@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70AAFDD01CC721620013555B /* DojoFinderLibraryUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 70AAFDCE1CC721620013555B /* DojoFinderLibraryUtilities.h */; };
+		70AAFDD01CC721620013555B /* DojoFinderLibraryUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 70AAFDCE1CC721620013555B /* DojoFinderLibraryUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70AAFDD11CC721620013555B /* DojoFinderLibraryUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AAFDCF1CC721620013555B /* DojoFinderLibraryUtilities.m */; };
 		70AAFDD31CC722890013555B /* KZCoreLibrariesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AAFDD21CC722890013555B /* KZCoreLibrariesObjC.framework */; };
 		70FC8D8C1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D8B1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };

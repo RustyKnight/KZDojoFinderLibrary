@@ -14,7 +14,7 @@ typedef NS_ENUM(NSInteger, SessionType) {Normal, Super, Restricted, Invitation};
 
 @protocol Session <NSObject>
 
-@property (readonly, strong, nonatomic) DayOfWeek dayOfWeek;
+@property (readonly, nonatomic) DayOfWeek dayOfWeek;
 @property (readonly, strong, nonatomic) NSString* startTimeText;
 @property (readonly, strong, nonatomic) NSString* endTimeText;
 
@@ -31,7 +31,7 @@ typedef NS_ENUM(NSInteger, SessionType) {Normal, Super, Restricted, Invitation};
  */
 @property (readonly, nonatomic) int endTimeInMinutesSinceMidnight;
 
-@property (readonly, strong, nonatomic) SessionType type;
+@property (readonly, nonatomic) SessionType type;
 @property (readonly, strong, nonatomic) NSString* details;
 
 @property (readonly, strong, nonatomic) id<Dojo> dojo;
