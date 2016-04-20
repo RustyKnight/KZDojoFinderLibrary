@@ -8,15 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
-@import UIKit;
+#import "WithPhoto.h"
 
-@protocol Dojo <NSObject>
+@protocol Dojo <NSObject, WithPhoto>
 
-@property (readonly, strong, nonatomic) NSString *name;
-@property (readonly, strong, nonatomic) NSString *address;
-@property (readonly, strong, nonatomic) CLLocation *location;
+@property (readonly, strong, nonatomic) NSString* _Nonnull name;
+@property (readonly, strong, nonatomic) NSString*  _Nonnull address;
+@property (readonly, strong, nonatomic) CLLocation* _Nonnull location;
 @property (readonly, nonatomic) int region;
-
--(void) picture:(void (^)(UIImage*))callBack;
-
 @end

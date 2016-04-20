@@ -7,16 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-@import UIKit;
+@import "WithPhoto.h"
 
-@protocol RegionContact <NSObject>
+@protocol RegionContact <NSObject, WithPhoto>
 
-@property (readonly, strong, nonatomic) NSString *name;
-@property (readonly, strong, nonatomic) NSString *phoneNumber;
-@property (readonly, strong, nonatomic) NSString *email;
-@property (readonly, strong, nonatomic) NSString *faceBook;
+@property (readonly, strong, nonatomic) NSString* _Nonnull name;
+@property (readonly, strong, nonatomic) NSString* _Nonnull phoneNumber;
+@property (readonly, strong, nonatomic) NSString* _Nonnull email;
+@property (readonly, strong, nonatomic) NSString* _Nonnull faceBook;
 @property (nonatomic) int region;
-
--(void) photo:(void (^)(UIImage*))callBack;
 
 @end

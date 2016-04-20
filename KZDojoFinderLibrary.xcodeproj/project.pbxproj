@@ -10,6 +10,7 @@
 		70AAFDD01CC721620013555B /* DojoFinderLibraryUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 70AAFDCE1CC721620013555B /* DojoFinderLibraryUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70AAFDD11CC721620013555B /* DojoFinderLibraryUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AAFDCF1CC721620013555B /* DojoFinderLibraryUtilities.m */; };
 		70AAFDD31CC722890013555B /* KZCoreLibrariesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AAFDD21CC722890013555B /* KZCoreLibrariesObjC.framework */; };
+		70AAFDD61CC73AB00013555B /* WithPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 70AAFDD51CC73AB00013555B /* WithPhoto.h */; };
 		70FC8D8C1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D8B1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70FC8D991CB2648B00E4D8D1 /* Dojo.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D931CB2648B00E4D8D1 /* Dojo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70FC8D9A1CB2648B00E4D8D1 /* DojoFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FC8D941CB2648B00E4D8D1 /* DojoFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +24,8 @@
 		70AAFDCE1CC721620013555B /* DojoFinderLibraryUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DojoFinderLibraryUtilities.h; sourceTree = "<group>"; };
 		70AAFDCF1CC721620013555B /* DojoFinderLibraryUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DojoFinderLibraryUtilities.m; sourceTree = "<group>"; };
 		70AAFDD21CC722890013555B /* KZCoreLibrariesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZCoreLibrariesObjC.framework; path = Carthage/Build/iOS/KZCoreLibrariesObjC.framework; sourceTree = "<group>"; };
+		70AAFDD41CC737FC0013555B /* ImageConsumer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageConsumer.h; sourceTree = "<group>"; };
+		70AAFDD51CC73AB00013555B /* WithPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WithPhoto.h; sourceTree = "<group>"; };
 		70FC8D881CB2643B00E4D8D1 /* KZDojoFinderLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KZDojoFinderLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FC8D8B1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZDojoFinderLibrary.h; sourceTree = "<group>"; };
 		70FC8D8D1CB2643B00E4D8D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 			children = (
 				70AAFDCE1CC721620013555B /* DojoFinderLibraryUtilities.h */,
 				70AAFDCF1CC721620013555B /* DojoFinderLibraryUtilities.m */,
+				70AAFDD41CC737FC0013555B /* ImageConsumer.h */,
+				70AAFDD51CC73AB00013555B /* WithPhoto.h */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 				70FC8D991CB2648B00E4D8D1 /* Dojo.h in Headers */,
 				70FC8D8C1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h in Headers */,
 				70FC8D9C1CB2648B00E4D8D1 /* RegionContactFactory.h in Headers */,
+				70AAFDD61CC73AB00013555B /* WithPhoto.h in Headers */,
 				70FC8D9A1CB2648B00E4D8D1 /* DojoFactory.h in Headers */,
 				70FC8D9E1CB2648B00E4D8D1 /* SessionFactory.h in Headers */,
 				70FC8D9D1CB2648B00E4D8D1 /* Session.h in Headers */,
