@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Session.h"
 
 @interface DojoFinderLibraryUtilities : NSObject
 /**
@@ -14,4 +15,6 @@
  a text representation in teh form of "hh:mm a"
  */
 +(NSString* _Nonnull)toTextMinutesSinceMidnight:(int)minutes;
++(NSString* _Nullable)toStringDayOfWeek:(DayOfWeek)dow;
++(NSString* _Nullable)toStringSessionType:(SessionType)type;
 @end

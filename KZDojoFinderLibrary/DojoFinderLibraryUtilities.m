@@ -22,4 +22,55 @@
 	
 }
 
++(NSString* _Nullable)toStringDayOfWeek:(DayOfWeek)dow {
+
+	NSString* value = nil;
+	switch (dow) {
+		case Monday:
+			value = @"Monday";
+			break;
+		case Tuesday:
+			value = @"Tuesday";
+			break;
+		case Wednesday:
+			value = @"Wednesday";
+			break;
+		case Thursday:
+			value = @"Thursday";
+			break;
+		case Friday:
+			value = @"Friday";
+			break;
+		case Saturday:
+			value = @"Saturday";
+			break;
+		case Sunday:
+			value = @"Sunday";
+			break;
+	}
+	return value;
+	
+}
+
++(NSString* _Nullable)toStringSessionType:(SessionType)type {
+	
+	NSString* value = nil;
+	switch (type) {
+		case Normal:
+			value = @"Normal";
+			break;
+		case Super:
+			value = @"Super";
+			break;
+		case Restricted:
+			value = @"Restricted";
+			break;
+		case Invitation:
+			value = @"Invitation";
+			break;
+	}
+	return value;
+	
+}
+
 @end
