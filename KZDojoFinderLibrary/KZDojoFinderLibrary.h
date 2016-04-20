@@ -24,3 +24,5 @@ FOUNDATION_EXPORT const unsigned char KZDojoFinderLibraryVersionString[];
 #import "Session.h"
 #import "SessionFactory.h"
 #import "DojoFinderLibraryUtilities.h"
+#import "WithPhoto.h"
+#import "ImageConsumer.h"
