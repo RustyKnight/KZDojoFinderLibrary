@@ -19,5 +19,5 @@
  suitable name...Photoable? Picturable? Imageable?
  */
 @protocol WithPhoto <NSObject>
--(void) photo:(id<ImageConsumer> _Nonnull)consumer;
+-(void) photoWithConsumer:(id<ImageConsumer> _Nonnull)consumer;
 @end
