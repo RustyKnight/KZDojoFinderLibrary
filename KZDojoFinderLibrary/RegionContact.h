@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@import "WithPhoto.h"
+#import "WithPhoto.h"
 
 @protocol RegionContact <NSObject, WithPhoto>
 
