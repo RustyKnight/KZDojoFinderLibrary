@@ -9,7 +9,7 @@
 @import UIKit;
 
 @protocol ImageConsumer <NSObject>
--(void)loadImage:(UIImage* _Nonnull)image;
+-(void)imageWasLoaded:(UIImage* _Nullable)image;
 -(void)imageFailedWithError:(NSError* _Nonnull)error;
 -(void)imageLoadingWithProgress:(NSNumber* _Nonnull)progress;
 @end
