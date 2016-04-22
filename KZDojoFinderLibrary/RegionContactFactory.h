@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "RegionContact.h"
-#import "DojoFinderFactoryConsumer.h>
+#import "DojoFinderFactoryConsumer.h"
 
 @interface RegionContactFactory : NSObject
 
