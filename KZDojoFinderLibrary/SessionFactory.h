@@ -11,7 +11,6 @@
 
 @interface SessionFactory : NSObject
 
-+(NSArray<id<Session>>*)sessionsForDojo:(id<Dojo>)dojo;
-+(void)sessionsForDojoInBackground:(id<Dojo>)dojo compliation:(void (^)(NSArray*))callBack;
++(void)sessionsForDojo:(id<Dojo>)dojo onCompliation:(void (^)(NSArray*))callBack;
 
 @end

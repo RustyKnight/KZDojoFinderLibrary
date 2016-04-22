@@ -11,7 +11,6 @@
 
 @interface RegionContactFactory : NSObject
 
-+(id<RegionContact>)regionContactByRegion:(NSInteger)region;
-+(void)regionContactInBackgroundByRegion:(NSInteger)region compliation:(void(^)(id<RegionContact>))callBack;
++(void)regionContact:(NSInteger)region onCompliation:(void(^)(id<RegionContact>))callBack;
 
 @end

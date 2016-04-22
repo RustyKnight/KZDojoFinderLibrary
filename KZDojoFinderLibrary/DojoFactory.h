@@ -11,7 +11,6 @@
 
 @interface DojoFactory : NSObject
 
-+(NSArray<id<Dojo>>*)dojosNear:(CLLocation*)userPoint withinKilometers:(double)range;
-+(void)dojosNearInBackground:(CLLocation*)userPoint withinKilometers:(double)range compliation:(void (^)(NSArray*))callBack;
++(void)dojosNear:(CLLocation*)userPoint withinKilometers:(double)range onCompliation:(void (^)(NSArray*))callBack;
 
 @end
