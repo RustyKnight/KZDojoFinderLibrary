@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Dojo.h"
+#import "DojoFinderFactoryConsumer.h>
 
 @interface SessionFactory : NSObject
 
