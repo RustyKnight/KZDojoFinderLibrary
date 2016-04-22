@@ -11,6 +11,6 @@
 
 @interface RegionContactFactory : NSObject
 
-+(void)regionContact:(NSInteger)region onCompliation:(void(^)(id<RegionContact>))callBack;
++(void)regionContactForRegion:(NSInteger)region withConsumer:(id<DojoFinderFactoryConsumer> _Nonnull)consumer;
 
 @end

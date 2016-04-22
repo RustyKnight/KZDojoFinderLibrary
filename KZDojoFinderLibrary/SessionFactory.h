@@ -11,6 +11,6 @@
 
 @interface SessionFactory : NSObject
 
-+(void)sessionsForDojo:(id<Dojo>)dojo onCompliation:(void (^)(NSArray*))callBack;
++(void)sessionsForDojo:(id<Dojo>)dojo  withConsumer:(id<DojoFinderFactoryConsumer> _Nonnull)consumer;
 
 @end

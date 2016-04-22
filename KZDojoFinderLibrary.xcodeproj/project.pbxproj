@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7040466F1CC9FA370033B59C /* DojoFinderFactoryConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7040466E1CC9FA370033B59C /* DojoFinderFactoryConsumer.h */; };
 		70AAFDD01CC721620013555B /* DojoFinderLibraryUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 70AAFDCE1CC721620013555B /* DojoFinderLibraryUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70AAFDD11CC721620013555B /* DojoFinderLibraryUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AAFDCF1CC721620013555B /* DojoFinderLibraryUtilities.m */; };
 		70AAFDD31CC722890013555B /* KZCoreLibrariesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AAFDD21CC722890013555B /* KZCoreLibrariesObjC.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7040466E1CC9FA370033B59C /* DojoFinderFactoryConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DojoFinderFactoryConsumer.h; sourceTree = "<group>"; };
 		70AAFDCE1CC721620013555B /* DojoFinderLibraryUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DojoFinderLibraryUtilities.h; sourceTree = "<group>"; };
 		70AAFDCF1CC721620013555B /* DojoFinderLibraryUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DojoFinderLibraryUtilities.m; sourceTree = "<group>"; };
 		70AAFDD21CC722890013555B /* KZCoreLibrariesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZCoreLibrariesObjC.framework; path = Carthage/Build/iOS/KZCoreLibrariesObjC.framework; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				70FC8D941CB2648B00E4D8D1 /* DojoFactory.h */,
 				70FC8D961CB2648B00E4D8D1 /* RegionContactFactory.h */,
 				70FC8D981CB2648B00E4D8D1 /* SessionFactory.h */,
+				7040466E1CC9FA370033B59C /* DojoFinderFactoryConsumer.h */,
 			);
 			name = Facories;
 			sourceTree = "<group>";
@@ -117,6 +120,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7040466F1CC9FA370033B59C /* DojoFinderFactoryConsumer.h in Headers */,
 				70FC8D9B1CB2648B00E4D8D1 /* RegionContact.h in Headers */,
 				70FC8D991CB2648B00E4D8D1 /* Dojo.h in Headers */,
 				70FC8D8C1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h in Headers */,
