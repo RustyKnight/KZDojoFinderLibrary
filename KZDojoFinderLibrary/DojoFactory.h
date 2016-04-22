@@ -12,6 +12,6 @@
 
 @interface DojoFactory : NSObject
 
-+(void)dojosNear:(CLLocation*)userPoint withinKilometers:(double)range withConsumer:(id<DojoFinderFactoryConsumer> _Nonnull)consumer;
++(void)dojosNear:(CLLocation* _Nonnull)userPoint withinKilometers:(double)range withConsumer:(id<DojoFinderFactoryConsumer> _Nonnull)consumer;
 
 @end

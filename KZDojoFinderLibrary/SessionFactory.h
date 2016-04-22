@@ -12,6 +12,6 @@
 
 @interface SessionFactory : NSObject
 
-+(void)sessionsForDojo:(id<Dojo>)dojo  withConsumer:(id<DojoFinderFactoryConsumer> _Nonnull)consumer;
++(void)sessionsForDojo:(id<Dojo> _Nonnull)dojo  withConsumer:(id<DojoFinderFactoryConsumer> _Nonnull)consumer;
 
 @end
