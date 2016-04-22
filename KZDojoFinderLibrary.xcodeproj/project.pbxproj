@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7040466F1CC9FA370033B59C /* DojoFinderFactoryConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7040466E1CC9FA370033B59C /* DojoFinderFactoryConsumer.h */; };
+		7040466F1CC9FA370033B59C /* DojoFinderFactoryConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7040466E1CC9FA370033B59C /* DojoFinderFactoryConsumer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70AAFDD01CC721620013555B /* DojoFinderLibraryUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 70AAFDCE1CC721620013555B /* DojoFinderLibraryUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70AAFDD11CC721620013555B /* DojoFinderLibraryUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AAFDCF1CC721620013555B /* DojoFinderLibraryUtilities.m */; };
 		70AAFDD31CC722890013555B /* KZCoreLibrariesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AAFDD21CC722890013555B /* KZCoreLibrariesObjC.framework */; };
@@ -120,7 +120,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7040466F1CC9FA370033B59C /* DojoFinderFactoryConsumer.h in Headers */,
 				70FC8D9B1CB2648B00E4D8D1 /* RegionContact.h in Headers */,
 				70FC8D991CB2648B00E4D8D1 /* Dojo.h in Headers */,
 				70FC8D8C1CB2643B00E4D8D1 /* KZDojoFinderLibrary.h in Headers */,
@@ -129,6 +128,7 @@
 				70FC8D9E1CB2648B00E4D8D1 /* SessionFactory.h in Headers */,
 				70FC8D9D1CB2648B00E4D8D1 /* Session.h in Headers */,
 				70AAFDD81CC73EDB0013555B /* ImageConsumer.h in Headers */,
+				7040466F1CC9FA370033B59C /* DojoFinderFactoryConsumer.h in Headers */,
 				70AAFDD61CC73AB00013555B /* WithPhoto.h in Headers */,
 				70AAFDD01CC721620013555B /* DojoFinderLibraryUtilities.h in Headers */,
 			);
